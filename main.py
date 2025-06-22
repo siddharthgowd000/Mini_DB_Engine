@@ -34,7 +34,7 @@ def print_menu():
 def main():
     user = auth_flow()
     if not user:
-        return
+        return 
 
     while True:
         print_menu()

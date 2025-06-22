@@ -1,0 +1,35 @@
+{
+    "fields": [
+        "sl.no",
+        "name",
+        "category",
+        "size",
+        "price"
+    ],
+    "types": {
+        "sl.no": "int",
+        "name": "str",
+        "category": "str",
+        "size": "str",
+        "price": "float"
+    },
+    "records": [
+        {
+            "sl.no": 1,
+            "name": "black color - checks shirt",
+            "category": "shirt",
+            "size": "M",
+            "price": 1499.0,
+            "created_at": "2025-06-22T16:42:34.861426"
+        },
+        {
+            "sl.no": 2,
+            "name": "blue strips",
+            "category": "T-shirt",
+            "size": "XL",
+            "price": 999.0,
+            "created_at": "2025-06-22T16:43:17.506540"
+        }
+    ],
+    "name": "fashion"
+}

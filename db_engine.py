@@ -125,5 +125,10 @@ def export_to_csv():
     with open(filename, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=table["fields"])
         writer.writeheader()
-        writer.writerows(table["records"])
+        # Filter records to only include original fields
+        filtered_records = []
+        for record in table["records"]:
+            filtered_record = {field: record.get(field, "") for field in table["fields"]}
+            filtered_records.append(filtered_record)
+        writer.writerows(filtered_records)
     print(f"✅ Exported to {filename}")
