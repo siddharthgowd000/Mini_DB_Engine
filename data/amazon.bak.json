@@ -1,0 +1,19 @@
+{
+    "fields": [
+        "sl.no",
+        "name",
+        "qty",
+        "price",
+        "delivery_by"
+    ],
+    "records": [
+        {
+            "sl.no": "1",
+            "name": "robot car",
+            "qty": "1",
+            "price": "2200",
+            "delivery_by": "25th june 2025"
+        }
+    ],
+    "name": "amazon"
+}
