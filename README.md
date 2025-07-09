@@ -1,4 +1,4 @@
-# 🗃️ Mini DB Engine (Beast Edition) — Python CLI Project
+# 🗃️ Mini DB Engine — Python CLI Project
 
 > A fully functional, console-based mini database system built using core Python.  
 > Designed to impress placement teams by showcasing practical skills like CRUD logic, file handling, authentication, data validation, timestamping, and more — **without using any external database**!
